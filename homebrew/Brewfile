@@ -1,0 +1,10 @@
+tap "homebrew/bundle"
+tap "homebrew/cask"
+tap "homebrew/core"
+brew "docker", link: false
+brew "gh"
+brew "git"
+cask "google-chrome"
+cask "docker"
+cask "slack"
+cask "visual-studio-code"
