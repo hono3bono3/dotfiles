@@ -12,4 +12,5 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Run ShellCheck
-      uses: ludeeus/action-shellcheck@master
+      uses: ludeeus/action-shellcheck@203a3fd018dfe73f8ae7e3aa8da2c149a5f41c33
+
