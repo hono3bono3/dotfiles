@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # Check for Homebrew
-if test ! $(which brew)
+if test ! "$(which brew)"
 then
   echo "start installing homebrew."
   if test "$(uname)" = "Darwin"
