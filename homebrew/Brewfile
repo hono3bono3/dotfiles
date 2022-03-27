@@ -4,7 +4,7 @@ tap "homebrew/core"
 brew "docker", link: false
 brew "gh"
 brew "git"
-cask "google-chrome"
+brew "shellcheck"
 cask "docker"
 cask "slack"
 cask "visual-studio-code"
