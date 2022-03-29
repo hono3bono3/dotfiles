@@ -1,11 +1,13 @@
 tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/core"
+brew "act"
 brew "docker", link: false
 brew "gh"
 brew "git"
 brew "nodebrew"
 brew "shellcheck"
+cask "boostnote"
 cask "clipy"
 cask "docker"
 cask "kindle"
