@@ -1,3 +1,19 @@
 [user]
 	name = hono3bono3
 	email = 97086033+hono3bono3@users.noreply.github.com
+[core]
+	ignorecase = false
+	quotepath = false
+	autocrlf = false
+[color]
+	ui = true
+[alias]
+	co = checkout
+	ci = commit
+	br = branch
+	df = diff
+	pl = pull
+	ps = push
+	psoh = push origin HEAD
+	st = status
+
