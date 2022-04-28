@@ -1,0 +1,7 @@
+dbaeumer.vscode-eslint
+esbenp.prettier-vscode
+foxundermoon.shell-format
+golang.go
+ms-azuretools.vscode-docker
+MS-CEINTL.vscode-language-pack-ja
+ms-vscode-remote.remote-containers
