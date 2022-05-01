@@ -7,6 +7,8 @@
 	autocrlf = false
 [color]
 	ui = true
+[ghq]
+	root = ~/src
 [alias]
 	co = checkout
 	ci = commit
