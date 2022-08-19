@@ -3,6 +3,7 @@ tap "go-swagger/go-swagger"
 tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/core"
+tap "homebrew/services"
 brew "act"
 brew "awscli"
 brew "cloc"
@@ -16,11 +17,15 @@ brew "git"
 brew "go"
 brew "imagemagick"
 brew "jq"
+brew "k9s"
 brew "kind"
+brew "mas"
 brew "minikube"
+brew "mysql", restart_service: true
 brew "nodebrew"
 brew "peco"
 brew "shellcheck"
+brew "stern"
 brew "stow"
 brew "tmux"
 brew "tree"
@@ -40,3 +45,9 @@ cask "slack"
 cask "steam"
 cask "visual-studio-code"
 cask "zoom"
+mas "GarageBand", id: 682658836
+mas "iMovie", id: 408981434
+mas "Keynote", id: 409183694
+mas "LINE", id: 539883307
+mas "Numbers", id: 409203825
+mas "Pages", id: 409201541
