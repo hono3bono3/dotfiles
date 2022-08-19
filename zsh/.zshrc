@@ -47,3 +47,8 @@ function fzf-git-add() {
         git add ${@:1} $(paste -s - <<<"$selected")
     fi
 }
+
+for file in ~/.zshrc_*; do
+    echo "$file"
+    source "$file"
+done
