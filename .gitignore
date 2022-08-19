@@ -1,2 +1,5 @@
 # homebrew
 homebrew/Brewfile.lock.json
+
+# zsh
+zsh/.zshrc_*
